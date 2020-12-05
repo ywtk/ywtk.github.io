@@ -32,6 +32,14 @@ details summary{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container > li{
+  width: 256px;
+}
 /*-------------------------------------
 　タブレット向け
  --------------------------------------*/
@@ -44,5 +52,8 @@ details summary{
   body{
     width: 1024px;
     margin: auto;
+  }
+  .flex-container > li{
+    width: 25%;
   }
 }
