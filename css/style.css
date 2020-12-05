@@ -7,6 +7,31 @@ h1{
 ul{
   padding-left: 25px;
 }
+.update_list li time{
+  padding-right: 20px;
+}
+a{
+  word-wrap: break-word;
+}
+li .desc{
+  font-weight: bold;
+}
+details{
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em 1em 0;
+  margin-bottom: .6em;
+}
+details summary{
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .6em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 /*-------------------------------------
 　タブレット向け
  --------------------------------------*/
