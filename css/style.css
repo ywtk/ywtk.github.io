@@ -48,6 +48,9 @@ details summary{
 .flex-container-2 > li{
   width: 256px;
 }
+.back{
+  text-align: center;
+}
 /*-------------------------------------
 　タブレット向け
  --------------------------------------*/
