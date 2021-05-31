@@ -43,10 +43,10 @@ details summary{
   flex-wrap: wrap;
 }
 .flex-container > li{
-  width: 256px;
+  width: 100%;
 }
 .flex-container-2 > li{
-  width: 256px;
+  width: 100%;
 }
 .back{
   text-align: center;
