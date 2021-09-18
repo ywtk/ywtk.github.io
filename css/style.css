@@ -58,6 +58,14 @@ details summary{
     list-style-type: none;
     padding-left: 20px;
 }
+.alert{
+  padding: 5px;
+  background-color: #FF5959;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 5px;
+  text-align: center;
+}
 /*-------------------------------------
 　タブレット向け
  --------------------------------------*/
